@@ -443,13 +443,13 @@
 
 .team-grid {
     display: flex;
-    justify-content: space-evenly; /* Равномерное распределение */
-    gap: 20px; /* Расстояние между блоками */
+    justify-content: space-evenly; 
+    gap: 20px;
 }
 
 .team-member {
-    flex: 1; /* Растягиваем блоки равномерно */
-    max-width: 300px; /* Максимальная ширина блока */
+    flex: 1; 
+    max-width: 300px; 
     text-align: center;
     background: #fff;
     border-radius: 10px;
@@ -489,7 +489,7 @@
 .offers-grid {
     display: flex;
     justify-content: space-between;
-    gap: 20px; /* Расстояние между карточками */
+    gap: 20px; 
 }
 
 .offer {
