@@ -1,0 +1,295 @@
+.reviews {
+  padding: 50px 20px;
+  text-align: center;
+}
+.reviews__title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #8e2c79;
+  margin-bottom: 40px;
+}
+.reviews__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.reviews__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  overflow: hidden;
+  max-width: 100%;
+}
+.reviews .review-card {
+  background-color: #fff;
+  border: 2px solid #d8a5c3;
+  border-radius: 15px;
+  padding: 20px;
+  min-width: 450px;
+  text-align: left;
+}
+.reviews .review-card__name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #8e2c79;
+  margin-bottom: 10px;
+}
+.reviews .review-card__text {
+  font-size: 16px;
+  font-weight: normal;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.reviews .review-card__rating {
+  font-size: 20px;
+  font-weight: bold;
+  color: #710a80;
+}
+.reviews__arrow {
+  background: none;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.reviews__arrow--left {
+  position: absolute;
+  left: -50px;
+}
+.reviews__arrow--right {
+  position: absolute;
+  right: -50px;
+}
+
+.appointment {
+  padding: 50px 20px;
+  background-color: #fdfdfd;
+}
+.appointment__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+.appointment__image img {
+  width: 100%;
+  max-width: 770px;
+  border-radius: 10px;
+}
+.appointment__form-container {
+  flex: 1;
+  max-width: 500px;
+}
+.appointment__title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #8e2c79;
+  margin-bottom: 30px;
+}
+.appointment__title span {
+  color: #d22f84;
+}
+.appointment__form {
+  display: flex;
+  border: none;
+  border-bottom: #524848 1px solid;
+  flex-direction: column;
+  gap: 15px;
+}
+.appointment__input, .appointment__select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.appointment__date-time {
+  display: flex;
+  gap: 10px;
+}
+.appointment__input--small {
+  flex: 1;
+}
+.appointment__button {
+  background-color: #8e2c79;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.appointment__button:hover {
+  background-color: #a54291;
+}
+
+.contacts {
+  padding: 50px 20px;
+  background-color: #fdfdfd;
+}
+.contacts__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+}
+.contacts__map iframe {
+  border: none;
+  border-radius: 10px;
+  width: 800px;
+}
+.contacts__info {
+  flex: 1;
+  max-width: 800px;
+}
+.contacts__title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #8e2c79;
+  margin-bottom: 20px;
+}
+.contacts__address, .contacts__phone-email {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+.contacts__address a, .contacts__phone-email a {
+  color: #8e2c79;
+  text-decoration: none;
+}
+.contacts__address a:hover, .contacts__phone-email a:hover {
+  text-decoration: underline;
+}
+.contacts__socials {
+  margin-bottom: 20px;
+}
+.contacts__socials p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.contacts__socials-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+.contacts__socials-icon img {
+  width: 24px;
+  height: 24px;
+}
+.contacts__button {
+  background-color: #8e2c79;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contacts__button:hover {
+  background-color: #a54291;
+}
+
+.footer {
+  background-color: #8e2c79;
+  color: #fff;
+  padding: 20px 0;
+}
+.footer__container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+@media (max-width: 768px) {
+  .footer__container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.footer__logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer__logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.footer__nav {
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .footer__nav {
+    margin: 20px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.footer__link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.footer__link:hover {
+  text-decoration: underline;
+}
+.footer__contacts {
+  text-align: right;
+}
+@media (max-width: 768px) {
+  .footer__contacts {
+    text-align: center;
+  }
+}
+.footer__contacts p {
+  margin: 0 0 5px 0;
+}
+.footer__contacts-contact {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 5px 0;
+}
+.footer__contacts-contact:hover {
+  text-decoration: underline;
+}
+.footer__contacts-socials {
+  margin-top: 10px;
+}
+.footer__contacts-socials-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer__contacts-socials-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

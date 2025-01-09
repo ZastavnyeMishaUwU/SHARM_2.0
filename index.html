@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="scss/style.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SHARM</title>
 </head>
@@ -164,6 +165,159 @@
         </div>
     </div>
     <a href="#" class="details-button">Детальніше</a>
+    <section class="reviews">
+        <h2 class="reviews__title">ВІДГУКИ НАШИХ КЛІЄНТІВ</h2>
+        <div class="reviews__container">
+            <button class="reviews__arrow reviews__arrow--left">❮</button>
+            <div class="reviews__cards">
+                <div class="review-card">
+                    <h3 class="review-card__name">АННА</h3>
+                    <div class="review-card__rating">
+                        ★★★★★
+                    </div>
+                    <p class="review-card__text">
+                        Пішла до салону за рекомендацією знайомої, до майстра манікюру Каті. Тепер я постійний клієнт. Катя дуже акуратно та якісно робить манікюр.
+                        Покриття лаку тримається чудово! Хто у пошуках майстра манікюру, з повною відповідальністю рекомендую Катю!
+                    </p>
+
+                </div>
+                <div class="review-card">
+                    <h3 class="review-card__name">МАРІЯ</h3>
+                    <div class="review-card__rating">
+                        ★★★★☆
+                    </div>
+                    <p class="review-card__text">
+                        Була у салоні у майстра Тетяни. Чудо-дівчинка, чудовий майстер. З півслова відчула настрій та зробила чудову стрижку. Рекомендую дуже!
+                    </p>
+
+                </div>
+            </div>
+            <button class="reviews__arrow reviews__arrow--right">❯</button>
+        </div>
+    </section>
+    <section class="appointment">
+        <div class="appointment__container">
+            <div class="appointment__image">
+                <img src="img/Rectangle%2045.png" alt="Hair styling process" />
+            </div>
+            <div class="appointment__form-container">
+                <h2 class="appointment__title">
+                    ЗАПИШИСЬ І ОТРИМАЙ ЗНИЖКУ <span>20%</span> НА ПЕРШИЙ ВІЗИТ.
+                </h2>
+                <form class="appointment__form">
+                    <input
+                            class="appointment__input"
+                            type="text"
+                            name="name"
+                            placeholder="Ім'я"
+                            required
+                    />
+                    <input
+                            class="appointment__input"
+                            type="tel"
+                            name="phone"
+                            placeholder="Номер телефону"
+                            required
+                    />
+                    <select class="appointment__select" name="service" required>
+                        <option value="" disabled selected>Виберіть послугу</option>
+                        <option value="haircut">Стрижка</option>
+                        <option value="manicure">Манікюр</option>
+                        <option value="makeup">Макіяж</option>
+                    </select>
+                    <div class="appointment__date-time">
+                        <input
+                                class="appointment__input appointment__input--small"
+                                type="date"
+                                name="date"
+                                required
+                        />
+                        <input
+                                class="appointment__input appointment__input--small"
+                                type="time"
+                                name="time"
+                                required
+                        />
+                    </div>
+                    <button class="appointment__button" type="submit">ЗАПИСАТИСЬ</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="contacts__container">
+            <div class="contacts__map">
+                <iframe
+                        src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_LINK"
+                        width="100%"
+                        height="300"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+            <div class="contacts__info">
+                <h2 class="contacts__title">КОНТАКТИ</h2>
+                <p class="contacts__address">
+                    Адрес: м. Івано-Франківськ, вул. Незалежності, 36Б
+                </p>
+                <p class="contacts__phone-email">
+                    Телефон і email: <br />
+                    <a href="tel:+380991111111">+380 (99)-111-11-11</a> <br />
+                    <a href="mailto:sharm.beatysalon@ukr.net">sharm.beatysalon@ukr.net</a>
+                </p>
+                <div class="contacts__socials">
+                    <p>Соціальні мережі</p>
+                    <a href="#" class="contacts__social-icon">
+                        <img src="img/Vector%20(2).png" alt="Facebook" />
+                    </a>
+                    <a href="#" class="contacts__social-icon">
+                        <img src="img/Vector%20(1).png" alt="Instagram" />
+                    </a>
+                    <a href="#" class="contacts__social-icon">
+                        <img src="img/Vector.png" alt="Twitter" />
+                    </a>
+                </div>
+                <button class="contacts__button">ЗАПИСАТИСЬ</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__logo">
+                <img src="img/lilia.png" alt="SHARM Logo" />
+                <span>SHARM</span>
+            </div>
+            <nav class="footer__nav">
+                <a href="#about" class="footer__link">Про нас</a>
+                <a href="#services" class="footer__link">Послуги</a>
+                <a href="#team" class="footer__link">Наша команда</a>
+                <a href="#reviews" class="footer__link">Відгуки</a>
+                <a href="#contacts" class="footer__link">Контакти</a>
+            </nav>
+            <div class="footer__contacts">
+                <p>Телефон і email:</p>
+                <a href="tel:+380991111111" class="footer__contact">+380 (99)-111-11-11</a>
+                <a href="mailto:sharm.beatysalon@ukr.net" class="footer__contact">sharm.beatysalon@ukr.net</a>
+                <div class="footer__socials">
+                    <a href="#" class="footer__social-icon">
+                        <img src="img/brandico_facebook-rect.png" alt="Facebook" />
+                    </a>
+                    <a href="#" class="footer__social-icon">
+                        <img src="img/white2.png" alt="Instagram" />
+                    </a>
+                    <a href="#" class="footer__social-icon">
+                        <img src="img/white.png" alt="Twitter" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
 
 </div>
 </body>

@@ -4,6 +4,7 @@
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-style: normal;
+
 }
 
 .conteiner {
@@ -443,13 +444,13 @@
 
 .team-grid {
     display: flex;
-    justify-content: space-evenly; 
-    gap: 20px;
+    justify-content: space-evenly; /* Равномерное распределение */
+    gap: 20px; /* Расстояние между блоками */
 }
 
 .team-member {
-    flex: 1; 
-    max-width: 300px; 
+    flex: 1; /* Растягиваем блоки равномерно */
+    max-width: 300px; /* Максимальная ширина блока */
     text-align: center;
     background: #fff;
     border-radius: 10px;
@@ -489,7 +490,7 @@
 .offers-grid {
     display: flex;
     justify-content: space-between;
-    gap: 20px; 
+    gap: 20px; /* Расстояние между карточками */
 }
 
 .offer {
